@@ -5,8 +5,10 @@ machine:
 
 dependencies:
   pre:
-    - npm install
+    - rm -rf node_modules
+    - npm update
 
 test:
   override:
+    - ls
     - npm test
