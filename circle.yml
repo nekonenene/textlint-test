@@ -1,4 +1,5 @@
 machine:
+  # Circle CI の設定で Ubuntu 14.04 にすること
   timezone: Asia/Tokyo
   node:
     version: 6.1.0
@@ -7,8 +8,8 @@ dependencies:
   pre:
     - rm -rf node_modules
     - npm update
+  # npm update しないと Module version mismatch Error を吐く
 
 test:
   override:
-    - ls
     - npm test
