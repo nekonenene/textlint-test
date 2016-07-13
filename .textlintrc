@@ -1,0 +1,13 @@
+{
+	"rules": {
+		web-plus-db: true, ## WEB+DB PRESS用語統一ルール https://gist.github.com/inao/f55e8232e150aee918b9
+		spellchecker: true,
+		one-white-space-between-zenkaku-and-hankaku-eiji: true,
+		preset-ja-technical-writing: {
+			no-exclamation-question-mark: false,
+			max-ten: {
+				max: 6
+			}
+		}
+	}
+}

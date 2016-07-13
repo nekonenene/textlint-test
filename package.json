@@ -1,0 +1,29 @@
+{
+  "name": "textlint-test",
+  "version": "0.0.1",
+  "description": "textlint の使い心地を試す",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "textlint",
+    "markdown"
+  ],
+  "author": "nekonenene",
+  "license": "ISC",
+  "devDependencies": {
+    "textlint": "^7.0.1",
+    "textlint-rule-one-white-space-between-zenkaku-and-hankaku-eiji": "^1.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^0.1.1",
+    "textlint-rule-spellchecker": "^2.0.1",
+    "textlint-rule-web-plus-db": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekonenene/textlint-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nekonenene/textlint-test/issues"
+  },
+  "homepage": "https://github.com/nekonenene/textlint-test#readme"
+}
