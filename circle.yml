@@ -6,7 +6,6 @@ machine:
 
 dependencies:
   pre:
-    - rm -rf node_modules
     - npm update
   # npm update しないと Module version mismatch Error を吐く
 
